@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Khuliso Gumula</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h4 {
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Khuliso Gumula's Website</h1>
+    </header>
+	<ul>
+<nav>
+        <label for="pages"></label>
+        <select id="pages" onchange="goToPage(this)">
+            <option value="">Select Next Page</option>
+            <option value="index.html">Home</option>
+            <option value="aboutme.html">About Me</option>
+            <option value="qualification.html">Qualification&certificates</option>
+            <!-- Add more options for other pages here -->
+        </select>
+    </nav>
+	</ul>
+    <main>
+        <p>Hi, I'm Khuliso. Welcome to my website!</p>
+        <p>Khuliso is a young Software Developer, a very dedicated tech-enthusiast, and a Graduate from IIE Rosebank College.<br>
+           However, I prefer to define myself based on what I can do rather than the qualification I hold. I am a very self-disciplined person<br>
+           who is open to opportunities and always up for challenges to grow myself.</p>
+        <p>I'm energetic and passionate, aspiring Software Developer, aiming to use my knowledge and skills that I have acquired from System<br>
+           Development learnership as well as self-study and my hard work to satisfy an IT-related job or entry-level opportunities at any organization.<br>
+           I am confident that I will significantly benefit your team and organization with my technical and leadership skills, coupled with my adaptability<br>
+           and interpersonal abilities. I am passionate about technology and love to explore the world of web development/Applications. Feel free to connect with me<br>
+           and let's create amazing things together! If you want to get in touch, you can find me on Gmail or WhatsApp using the links in the footer below.</p>
+        
+        <h4>My Majors</h4>
+        <p>Web Development (Intermediate)<br> 
+           Advanced Databases<br> 
+           Software Quality and Testing<br>
+           Information Security<br>
+           Applied Programming<br>
+           Open Source Coding (Introduction)<br>
+           Open Source Coding (Intermediate).</p>
+        
+        <h4>Web Development</h4>
+        <p>Building advanced websites using JavaScript, PHP, SQL languages, and HTML5, the Hypertext Markup Language, and CSS, the styling language.<br>
+           Using platforms such as Notepad++,Xamp, Wamp, Oracle,MySQL, NetBeans IDE and Visual Studio.</p>
+        
+        <h4>Advanced Databases</h4>
+        <p>In this module, we used Structured Query Language (SQL). We used SQL for storing and processing information in a relational database<br> 
+           A relational database stores information in table form, with rows and columns representing different data attributes and various relationships<br>
+           between the data values. SQL is a language that operates databases, it includes Database Creation, Database Deletion, fetching Data from rows,<br>
+           Modifying and Deleting Data from rows, using Oracle</p>
+        
+        <h4>Software Quality and Testing</h4>
+        <p>In this module, we were examining the artifacts and the behavior of the software under test by validation and verifications. Making sure the<br> 
+           Software is safe and secure to implement, Making sure there are no errors and risks, making sure that the software functions are working as expected.</p>
+        
+        <h4>Information Security</h4>
+        <p>The module was about information protection from different kinds of threats and viruses, and it talks about Disaster recovery plan.</p>
+        
+        <h4>Applied Programming</h4>	
+        <p>This module is about software development in Cloud Computing Microsoft Azure, using SQL Database, C# programming language, and agile method.<br>
+           It shows the Application of Software development in cloud computing platform, how code is pushed, how it connects to the databases and a whole<br>
+           lot of theories about Software engineering, making practice of Microsoft Azure, C# programming language, and SQL  Database.</p>
+        
+        <h4>Open Source Coding</h4>
+        <p>This module focused on Mobile Applications development using Android software and Java programming Language, we created some Application fitness App<br>
+           and Google maps application, using Firebase Database.</p>
+    </main>
+
+    <footer>
+        <p>Contact me:</p>
+        <a href="mailto:khulisogumula@gmail.com">
+            <img src="email_.png" alt="">khulisogumula@gmail.com
+        </a>
+   
+
+
+    
+        <a href="https://wa.me/0637697051">
+            <img src="/images/whatsapp.png" alt="">0637697051
+        </a>
+     <p>Created by Khuliso Gumula</p>
+    </footer>
+	<script>
+        function goToPage(selectElement) {
+            var selectedPage = selectElement.value;
+            if (selectedPage) {
+                window.location = selectedPage;
+            }
+        }
+    </script>
+</body>
+</html>

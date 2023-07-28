@@ -3,37 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Khuliso Gumula's Website</title>
+    <title>PDF Viewer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Khuliso Gumula's Website</h1>
+<header>
+        <h1>My Qualifications and Certificates</h1>
     </header>
 	<ul>
-<nav>
+<nav
         <label for="pages"></label>
         <select id="pages" onchange="goToPage(this)">
-           <li> <option value="">Select Next Page</option></li>
-            <li> <option value="index.html">Home</option> </li>
-            <option value="aboutme.html">About Me</option>
-            <option value="qualification.html">Qualification&certificates</option>
+            <option value="">Select Next Page</option>
+            <option value="Index.html">Home</option>
+            <option value="Aboutme.html">About Me</option>
+            <option value="Qualification.html">Qualification&certificates</option>
             <!-- Add more options for other pages here -->
         </select>
     </nav>
-</ul>
-    <main>
-	<p>The link will take you to my other projects.</p>
+	</ul>
+    <div class="pdf-container">
+        <h2>PDF Documents</h2>
         
-	 <div class="share-work">
-        <a href="your_work_link">Link</a>
+        <embed src="Documents/Qualification.pdf" width="500" height="300" type="application/pdf">
+		 <embed src="Documents/ID.pdf" width="500" height="300" type="application/pdf">
+		  <embed src="Documents/Academy_Transcript.pdf" width="500" height="300" type="application/pdf">
+		  <embed src="Documents/Matric.pdf" width="500" height="300" type="application/pdf">
+		  <embed src="Documents/Drivers_license.pdf" width="500" height="300" type="application/pdf">
     </div>
-        
-    </main>
-
-  
-	
-     <footer>
+</body>
+<footer>
         <p>Contact me:</p>
         <a href="mailto:khulisogumula@gmail.com">
             <img src="email_.png" alt="">khulisogumula@gmail.com
@@ -54,5 +53,4 @@
             }
         }
     </script>
-</body>
 </html>
