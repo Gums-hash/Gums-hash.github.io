@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Khuliso Gumula's Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Khuliso Gumula's Website</h1>
+    </header>
+	<ul>
+<nav>
+        <label for="pages"></label>
+        <select id="pages" onchange="goToPage(this)">
+           <li> <option value="">Select Next Page</option></li>
+            <li> <option value="index.html">Home</option> </li>
+            <option value="aboutme.html">About Me</option>
+            <option value="qualification.html">Qualification&certificates</option>
+            <!-- Add more options for other pages here -->
+        </select>
+    </nav>
+</ul>
+    <main>
+	<p>The link will take you to my other projects.</p>
+        
+	 <div class="share-work">
+        <a href="your_work_link">Link</a>
+    </div>
+        
+    </main>
+
+  
+	
+     <footer>
+        <p>Contact me:</p>
+        <a href="mailto:khulisogumula@gmail.com">
+            <img src="email_.png" alt="">khulisogumula@gmail.com
+        </a>
+   
+
+    
+        <a href="https://wa.me/0637697051">
+            <img src="/images/whatsapp.png" alt="">0637697051
+        </a>
+     <p>Created by Khuliso Gumula</p>
+    </footer>
+	<script>
+        function goToPage(selectElement) {
+            var selectedPage = selectElement.value;
+            if (selectedPage) {
+                window.location = selectedPage;
+            }
+        }
+    </script>
+</body>
+</html>
